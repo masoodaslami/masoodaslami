@@ -1,0 +1,16 @@
+.navbar {
+    background: linear-gradient(45deg, rgba(black, 0.8), rgba(black, 0.2));
+    .navbar-brand {
+        font-family: 'Bad Script', cursive;
+        font-size: 1.68rem;
+        margin-left: 2rem;
+        color: #00a8ff;
+    }
+    .navbar-nav .nav-item {
+        margin: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .navbar .navbar-brand { margin-left: 1rem; }
+}

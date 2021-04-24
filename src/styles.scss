@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('../node_modules/animate.css/animate.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+a {
+    color: $gray-200;
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(black, 0.9);
+    color: $gray-200;
+    overflow: hidden;
+}
+
+div.page-content {
+    min-height: 100vh;
+    background: url('./assets/img/masood_aslami.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .page-fade {
+        min-height: 100vh;
+        background: linear-gradient(to top, rgba(black, 0.98), rgba(black, 0.8));
+    }
+}
